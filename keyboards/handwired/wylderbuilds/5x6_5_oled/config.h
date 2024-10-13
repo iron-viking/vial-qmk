@@ -1,7 +1,7 @@
 // Dactyl Manuform Hotswap
 #pragma once
 
-#include "config_common.h"
+// This has been depricated - #include "config_common.h"
 // Basic Config
 
 //#define PRODUCT_ID 0x0002
@@ -30,7 +30,7 @@
 #ifdef RGBLIGHT_ENABLE
 //#define WS2812_PIO_USE_PIO1
 //#define WS2812_PIO_USE_PIO1
-#define RGB_DI_PIN GP21
+#define WS2812_DI_PIN GP21
 //#define WS2812_EXTERNAL_PULLUP
 #define RGBLED_NUM 36
 //#define DRIVER_LED_TOTAL 34
